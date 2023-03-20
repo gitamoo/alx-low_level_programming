@@ -1,37 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 00 to 89.
- *
- * Return: Always 0 (Success)
+ * main - prints alpha in lower case
+ * Return: Always 0
  */
 int main(void)
 {
-	int i, e;
+	char lw;
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	for (lw = 'a'; lw <= 'z'; lw++)
 	{
-		i = 48;
-		while (i < 58)
-		{
-			if (e != i && e < i)
-			{
-				putchar(e);
-				putchar(i);
-				if (i == 57 && e == 56)
-				{
-					break;
-				}
-				putchar(',');
-				putchar(' ');
-			}
-			i++;
-		}
-		e++;
+		putchar(lw);
 	}
 	putchar('\n');
 	return (0);
-}
+}}
