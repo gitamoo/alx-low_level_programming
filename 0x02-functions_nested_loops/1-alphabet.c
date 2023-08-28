@@ -11,9 +11,13 @@ int main(void)
 }
 void print_alphabet(void)
 {
-	char alphabets;
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	char alphabets = 'a';
+
+	while (alphabets <= 'z';
+	{
 		_putchar(alphabets);
+		alphabets++;
+	}
 
 	_putchar('\n');
 }
