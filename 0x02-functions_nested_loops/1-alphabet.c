@@ -10,6 +10,6 @@ int main(void)
 	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 		_putchar(alphabets);
 
-	putchar('\n');
+	_putchar('\n');
 	return 0;
 }
